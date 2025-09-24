@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:3000';  // Thay bằng URL API của bạn (Vercel hoặc Termux)
+const API_URL = 'https://my-test-api-dun.vercel.app/';  // Thay bằng URL API của bạn (Vercel hoặc Termux)
 
 document.addEventListener('DOMContentLoaded', () => {
     // GET Hello
