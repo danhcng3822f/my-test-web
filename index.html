@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test API Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Test API trên Vercel/Termux</h1>
+        
+        <!-- Phần GET Hello -->
+        <section>
+            <h2>Gọi GET /api/hello</h2>
+            <button id="btnHello">Gọi Hello</button>
+            <div id="resultHello"></div>
+        </section>
+        
+        <!-- Phần POST Echo -->
+        <section>
+            <h2>Gửi POST /api/echo</h2>
+            <input type="text" id="inputText" placeholder="Nhập text để echo..." />
+            <button id="btnEcho">Gửi Echo</button>
+            <div id="resultEcho"></div>
+        </section>
+        
+        <p><strong>Lưu ý:</strong> Thay `API_URL` trong script.js bằng URL API của bạn (ví dụ: http://localhost:3000 hoặc https://your-vercel-app.vercel.app).</p>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
